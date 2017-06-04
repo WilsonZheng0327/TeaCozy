@@ -1,0 +1,126 @@
+body{
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  display: block;
+}
+header{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img{
+  height: 50px;
+  padding-left: 10px;
+}
+nav{
+  padding-right: 10px;
+  text-align: right;
+  flex-grow: 1;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+.ourmission{
+  padding-top: 70px;
+  display: flex;
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  margin:0px auto;
+}
+.text1{
+  margin:auto;
+  width:1200px;
+  background-color: black;
+}
+h2,h4{
+  margin:0px;
+  padding:10px;
+}
+.teaofthemonth{
+  width:1000px;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+  padding-top: 70px;
+}
+.text2{
+  text-align: center;
+}
+.dishes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dish{
+  display: inline-block;
+  padding:5px;
+}
+.dish img{
+  display: block;
+  width: 300px;
+  height: 200px;
+  padding:5px;
+}
+.dish span{
+  font-weight: bold;
+  display: block;
+  padding:5px;
+  text-align: center;
+}
+.locations{
+  height: 600px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  margin:auto;
+  margin-top: 30px;
+  padding-top: 40px;
+}
+.locations h2{
+  text-align: center;
+  padding-top: 50px;
+  display: block;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin:15px 20px 20px 20px;
+}
+.box h3, .box p{
+  display: block;
+  text-align: center;
+}
+.box p{
+  padding:10px;
+}
+footer{
+  display: block;
+}
+.info{
+  height: 200px;
+}
+.info h2,.info h5{
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+.copyright{
+  padding-left: 20px;
+}
